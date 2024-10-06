@@ -1,11 +1,11 @@
-.page {
-    min-width: 1100px;
-    max-width: 1600px;
-    margin: 0 auto;
-    font-family: Inter, Arial, sans-serif;
-    font-size: 16px;
-    line-height: 20px;
-  }
+    .page {
+        min-width: 1100px;
+        max-width: 1600px;
+        margin: 0 auto;
+        font-family: "Inter", Arial, sans-serif;
+        font-size: 16px;
+        line-height: 20px;
+}
 
   .header {
     display: flex;
@@ -14,8 +14,8 @@
     max-height: 800px;
     position: relative;
     box-sizing: border-box;
+}
 
-  }
   .nav {
     display: flex;
     flex-direction: row;
@@ -24,17 +24,15 @@
     margin-right: 80px;
     margin-top: 30px;
     padding: 0;
-
-
-   }
+}
   
   .nav__logo {
     height: 39px;
     width: 105px;
-  }
+}
   
   .nav__links {
-    font-family: "Inter";
+    font-family: "Inter", Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -42,22 +40,25 @@
     display: flex;
     column-gap: 20px;
     list-style: none;
-   }
+}
   
   .nav__link {
     
     color: #000;
     text-decoration: none;
     font-weight: 500; 
-  }
+}
   
   .nav__link:hover {
     color: #d35722;
-  }
+}
   
   .header__title {
-    font-size: 66px;
-    line-height: 76px;
+    font-family: "Inter", Arial, sans-serif;
+    font-style: normal;
+    letter-spacing: -0.6px;
+    font-size: 60px;
+    line-height: 72px;
     font-weight: 500;
     max-width: 729px;
     top: 183px;
@@ -67,14 +68,20 @@
 }
   .header__span-accent {
     display: block;
+    font-family: "Noto Serif", "Times New Roman", serif;
     font-style: italic;
-    font-family: "Noto Serif", Times, serif;
-  }
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 72px;
+    color: #3F96F3;
+}
 
   .header__description {
-    font-family: "Noto Serif", Times, serif;
-    font-size: 20px;
+    font-family: "Noto Serif", "Times New Roman", serif;
+    font-style: normal;
+    font-weight: normal;
     line-height: 30px;
+    font-size: 20px;
     max-width: 683px;
     top: 28px;
     margin-left: 80px;
@@ -88,8 +95,7 @@
     right: 5px;
     max-height: 646px;
     width: 568px;
-    
-  }
+}
 
   .header__footer {
     margin-top: auto;
@@ -100,27 +106,19 @@
     margin-left: 80px;
     margin-right: 80px;
     bottom: 40px;
-    
-  }  
-
-  /* margin-top: auto;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  box-sizing: border-box;*/
+}  
   
   .header__hours {
     display: block;
     line-height: 0;
-  }
+}
 
   .header__paragraph {
     margin: 0;
-    font-family: "Inter";
+    font-family: "Inter", Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
     color: #6f6f6f;
-  }*/
+}
