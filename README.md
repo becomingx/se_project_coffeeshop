@@ -14,3 +14,8 @@ This is the second project of the Software Engineering program at TripleTen. It 
 ## Plan on improving the project
 
 Add your ideas here :)
+
+Project Name: Triple Espresso Coffee Shop
+
+Project Description:
+A landing page for the Triple Espresso Coffee Shop. The page describes coffee recipes and the menu, allows booking of a table via form, and lists ways to contact the business.
