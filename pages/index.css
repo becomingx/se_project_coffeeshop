@@ -150,24 +150,24 @@
     list-style-type: none;
 }
 
-.recipes__video-container .recipes__videos {
+.recipes__videos-container .recipes__videos {
     width: 100%;
     height: 100%;
 
 }
 
-.recipe__video-container_recipes-iframe {
+.recipes__videos-container_recipes-iframe {
     height: 273px;
     width: 480px;
 }
 
-.recipes__video-caption_container .recipe__video-container_recipes-iframe {
+.recipes__videos-caption_container .recipes__videos-container_recipes-iframe {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.recipes__video-caption_container {
+.recipes__videos-caption_container {
     display: flex;
     justify-content: space-between;
     font-size: 20px;
