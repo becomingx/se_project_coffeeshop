@@ -163,7 +163,7 @@
     width: 480px;
 }
 
-.recipes__videos-caption_container {
+.recipes__videos-caption-container {
     display: flex;
     justify-content: space-between;
     font-size: 20px;
