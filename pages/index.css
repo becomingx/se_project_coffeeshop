@@ -194,7 +194,7 @@
     margin: 0 0 80px;
 }
   
-.reservation__form_container {
+.reservation__form-container {
     display: flex;
     justify-content: center;
     margin: 0 auto;
@@ -262,7 +262,7 @@
     column-gap: 12px;
 }
 
-.form__fieldset .form__checkbox {
+.form__fieldset .checkbox__container__form-checkbox {
     border-radius: 2px;
     width: 20px;
     height: 20px;
