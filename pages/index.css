@@ -174,9 +174,6 @@
 
 }
 
-/*Add a smooth transition for the
-background-color property.
-*/
 .reservation {
     background-color: #D9E7FF;
     background-image: url(../images/background_reservation.svg);
@@ -200,41 +197,41 @@ background-color property.
 .reservation__form_container {
     display: flex;
     justify-content: center;
-    list-style-type: none;
+    margin: 0 auto;
     
 }
 
-.reservation__form_container .form__fieldset {
+.form__fieldset {
     border: 1px solid #838383;
-}
-
-.form__fieldset .form__label {
-    display: flex;
-    justify-content: flex-start;
-    padding-bottom: 8px;
-}
-
-.form__fieldset .form__label {
-    display: flex;
-    flex-direction: column;
     
 }
 
-.form__fieldset .form__label {
+.form__label {
     display: flex;
     flex-direction: column;
     border-radius: 4px;
-    padding-bottom: 32px;
+    padding-top: 8px;
+}
 
-    
+.form__fieldset .form__input {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+     max-width: 385px;
 }
 
 .form__button {
     display: flex;
     justify-content: center;
     border-radius: 4px;
-    color: #1878dc;
-    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    background-color: #1878dc;
+    transition: background-color smooth;
 }
 
 .form__fieldset:hover .button {
@@ -247,7 +244,7 @@ background-color property.
     justify-content: space-evenly;
 }
 
-.form__fielset .form__checkbox {
+.form__fieldset .form__checkbox {
     border-radius: 2px;
 }
 
