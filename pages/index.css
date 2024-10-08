@@ -201,15 +201,20 @@ background-color property.
     display: flex;
     justify-content: center;
     list-style-type: none;
+    
 }
 
-.reservation__form_container .form__label {
+.reservation__form_container .form__fieldset {
+    border: 1px solid #838383;
+}
+
+.form__fieldset .form__label {
     display: flex;
     justify-content: flex-start;
     padding-bottom: 8px;
 }
 
-.reservation__form_container .form__label {
+.form__fieldset .form__label {
     display: flex;
     flex-direction: column;
     
@@ -224,15 +229,15 @@ background-color property.
     
 }
 
-.form__fieldset .form__button {
+.form__button {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     border-radius: 4px;
     color: #1878dc;
     
 }
 
-.form__fieldset:hover .form__button {
+.form__fieldset:hover .button {
     color: #3f96f3;
 }
 
