@@ -182,21 +182,33 @@
     display: flex;
     flex-direction: column;
     padding: 100px 0 120px;
-  }
+}
   
   .reservation__title {
-    font-family: "Inter", Arial, sans-serif;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 44px;
     line-height: 52px;
     text-align: center;
     margin: 0 0 80px;
-  }
+}
   
-  .reservation__form {
-    margin: 0 auto;
-  }
+.reservation__form_container {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.reservation__form_container .form__label {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.form__fieldset .form__label {
+    display: flex;
+    flex-direction: column;
+}
 
 .content {
     color: #000000;
