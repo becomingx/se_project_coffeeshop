@@ -242,7 +242,7 @@
     margin-bottom: 20px;
     color: #fff;
     background-color: #1878dc;
-    transition: background-color smooth;
+    transition: 1s linear;
     font-family: Inter;
     font-style: normal;
     font-weight: 500;
