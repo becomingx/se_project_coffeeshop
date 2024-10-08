@@ -255,7 +255,7 @@
     color: #3f96f3;
 }
 
-.form__fieldset .checkbox__container_form-input {
+.form__fieldset .checkbox__container-form-input {
     display: flex;
     flex-direction: row;
     justify-content: center;
