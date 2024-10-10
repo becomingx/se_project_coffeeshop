@@ -3,20 +3,24 @@
   background-color: #0A2850;
   display: flex;
   justify-content: space-between;
-  padding: 100px 80px 173px;
+  padding-right: 80px;
+  padding-top: 119px;
+  padding-bottom: 173px;
   position: relative;
   overflow: hidden;
   z-index: 0;
 }
 
 .about__title {
-  font-family: "Inter", Arial, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
   max-width: 251px;
   margin: 0px;
+  padding-left: 80px;
+  padding-top: 100px;
 }
 
 .about__content {
