@@ -1,6 +1,7 @@
 .menu {
   background-image: url(../images/background_menu.svg);
-  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-color: #fff;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -9,9 +10,10 @@
 }
 
 .menu__title {
-  margin: 100px 0 24px;
+  margin-top: 100px;
+  margin-bottom: 24px;
   max-width: 780px;
-  font-family: "Inter", Arial, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -19,7 +21,8 @@
 }
 
 .menu__subtitle {
-  margin: 0 0 100px;
+  margin-top: 0px;
+  margin-bottom: 100px;
   max-width: 780px;
   font-family: "Noto Serif", "Times New Roman", Times, serif;
   font-style: normal;
@@ -34,5 +37,6 @@
   display: flex;
   flex-wrap: wrap;
   gap: 100px;
+  margin-bottom: 100px;
   justify-content: center;
 }
