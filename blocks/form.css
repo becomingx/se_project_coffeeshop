@@ -1,9 +1,8 @@
 .form__fieldset {
     border: 1px solid #838383;
-    
 }
 
-.form__fieldset_form-label {
+.form__label {
     display: flex;
     flex-direction: column;
     border-radius: 4px;
@@ -15,7 +14,7 @@
     line-height: 20px;
 }
 
-.form__fieldset_form-input {
+.form__input {
     display: flex;
     justify-content: center;
     padding-top: 15px;
@@ -31,7 +30,7 @@
     line-height: 30px;
 }
 
-.form__fieldset_form-button {
+.form__label_button {
     display: flex;
     justify-content: center;
     border-radius: 4px;
@@ -48,18 +47,19 @@
     border-style: none;
 }
 
-.form__fieldset_form-button:hover .button {
+.form__label_button:hover .button {
     color: #3f96f3;
 }
 
-.form__fieldset_form-checkbox-container {
+.form__label_type_checkbox{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    column-gap: 12px;
+    
 }
 
-.form__fieldset_form-checkbox{
+.form__checkbox {
+    column-gap: 12px;
     border-radius: 2px;
     width: 20px;
     height: 20px;
