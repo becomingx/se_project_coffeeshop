@@ -3,6 +3,7 @@
   color: white;
   box-sizing: border-box;
   justify-content: space-between;
+  padding-top: 60px;
   padding-left: 80px;
   padding-right: 80px;
   margin: 0 auto;
@@ -25,8 +26,9 @@
   height: 39px;
 }
 
-.footer__column-heading--social {
+.footer__column-heading {
   margin-bottom: 20px;
+  margin-top: 0;
   margin-left: auto;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
@@ -37,8 +39,8 @@
 
 .footer__list {
   list-style-type: none;
-  margin-top: 0;
-  margin-left: auto;
+  margin: 0;
+  padding-left: 0;
 }
 
 .footer__list-item {
@@ -70,6 +72,8 @@
 }
 
 .footer__copyright {
+  margin-top: 0;
+  margin-bottom: 0;
   padding-top: 108px;
   padding-bottom: 60px;
   font-family: "Inter", Arial, Helvetica, sans-serif;

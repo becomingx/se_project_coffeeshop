@@ -1,5 +1,7 @@
 .form__fieldset {
-    border: 1px solid #838383;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .form__label {
@@ -10,7 +12,7 @@
     font-family: "Inter", Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;s
+    font-size: 16px;
     line-height: 20px;
 }
 
