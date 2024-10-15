@@ -19,7 +19,7 @@
     margin: 0 0 80px;
 }
   
-.reservation__form_form {
+.reservation__form form {
     display: flex;
     justify-content: center;
     
