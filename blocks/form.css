@@ -2,6 +2,7 @@
     padding: 0;
     margin-left: 0;
     margin-right: 0;
+    border: none;
 }
 
 .form__label {
@@ -19,6 +20,9 @@
 .form__input {
     display: flex;
     justify-content: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #838383;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 20px;
