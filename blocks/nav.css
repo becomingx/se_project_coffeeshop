@@ -3,6 +3,17 @@
     justify-content: space-between;
 }
 
+.nav__link {
+    text-decoration: none;
+    color: #000;
+    transition: 0.5s linear; 
+}
+
+.nav__link:hover {
+    opacity: 50;
+    color: #838383;
+}
+
 .nav__logo {
     position: relative;
     left: -50px;
@@ -10,24 +21,13 @@
     width: 105px;
 }
 
-.nav__link {
+.nav__links {
     display: flex;
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
-    padding: 0;
+    padding-left: 0;
     margin: 0;
     gap: 20px;
-}
-
-.nav__links a {
-    text-decoration: none;
-    color: #000;
     font-family: "Inter", "Arial", Helvetica, sans-serif;   
-    transition: 0.5s linear; 
-}
-  
-.nav__links:hover .nav__link a {
-    opacity: 50;
-    color: #838383;
 }
