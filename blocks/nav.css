@@ -1,9 +1,11 @@
 .nav {
     display: flex;
     justify-content: space-between;
+    list-style-type: none;
 }
 
 .nav__link {
+
     text-decoration: none;
     color: #000;
     transition: 0.5s linear; 
@@ -22,6 +24,7 @@
 }
 
 .nav__links {
+    list-style-type: none;
     display: flex;
     font-weight: 500;
     font-size: 16px;
